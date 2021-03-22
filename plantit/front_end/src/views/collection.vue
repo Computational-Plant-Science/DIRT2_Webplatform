@@ -97,6 +97,7 @@
             <br />
             <b-row v-if="!dataLoading && data !== null && data !== undefined" align-h="center" class="m-1">
                 <b-col class="text-center">
+                    <b-overlay :show="dataLoading" rounded="sm">
                     <span
                         v-if="
                             !dataLoading &&
@@ -210,6 +211,7 @@
                             ></b-carousel-slide
                         >
                     </b-carousel>
+                    </b-overlay>
                 </b-col>
             </b-row>
         </b-container>
