@@ -16,7 +16,7 @@
     "@sentry/browser": "^5.30.0",
     "@sentry/integrations": "^5.30.0",
     "@vue/cli-plugin-unit-jest": "^4.5.11",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-core": "^7.0.0-bridge.0",
     "bootstrap-vue": "^2.21.2",
     "chai": "^4.3.0",
